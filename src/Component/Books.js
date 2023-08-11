@@ -67,7 +67,6 @@ export default function Books() {
               resetForm();
             }}
           >
-            {({ values, setValues }) => (
               <Form>
                 <div
                   className="row card text-bg-light mb-3"
@@ -117,11 +116,9 @@ export default function Books() {
                       {editing ? "Update Book" : "Add Book"}
                      </button>
                     </div>
-                    
                   </div>
                 </div>
               </Form>
-            )}
           </Formik>
         </div>
       </div>
