@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+label{
+  font-weight: bold;
+  display: flex;
+  text-decoration: solid;
+}
+
+input{
+  margin: 5px 0 5px 0;
+  width: 100%;
+  color: black;
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  box-sizing: border-box; 
+}
+
+input:hover{
+  border: 2px solid lightblue;
+}
+
+.btn:hover{
+  background-color: yellow;
+  color: black;
+  font-weight: bold;
+}
+
+.error {
+  color: red;
+  font-size: 15px;
+  text-align: left;
+}
